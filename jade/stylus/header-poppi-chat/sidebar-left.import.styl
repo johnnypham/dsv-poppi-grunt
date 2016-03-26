@@ -1,0 +1,58 @@
+.sidebar-left
+  display inline-block
+  width 85px
+  height 100%
+  position fixed
+  top 0px
+  z-index 2
+  left 0px
+  background #075887
+  li
+    display inline-block
+    width 100%
+    padding 15px 0px
+    min-height 30px
+    &:hover
+      background #084365
+    a
+      display inline-block
+      width 100%
+      i
+        font-size 25px
+        color #fff
+        display inline-block
+        margin-left 25px
+        float left
+      span
+        display none
+  &.navActive
+    width 180px
+    span
+      display inline-block
+      margin-top 6px
+      font-size 14px
+      margin-left 10px
+      color #fff
+  .show-hide-nav
+    position fixed
+    bottom 0px
+    display inline-block
+    text-align right
+    padding 15px 0px
+    float left
+    height 13px
+    width 85px
+    &:hover
+      background #084365
+    span
+      display none
+    .icon-arrows
+      font-size 15px
+      color #fff
+      margin-right 10px
+    &.navActive
+      width 180px
+      transform rotate(-180deg)
+      text-align left
+      i
+        margin-left 15px
