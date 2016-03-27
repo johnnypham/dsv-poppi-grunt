@@ -1,0 +1,207 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    block Poppi chat
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700&subset=latin,vietnamese,latin-ext,greek')
+    //- meta(name='apple-mobile-web-app-capable', content='yes')
+    //- meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    //if lt IE 9
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js')
+      script(src='js/respond.min.js')
+    link(href='stylus/fonts.css', type='text/css', rel='stylesheet')
+    // stylesheet
+    link(href='stylus/style.css', type='text/css', rel='stylesheet')
+    script(src='js/jquery-1.10.2.js')
+    script(src='js/jquery-ui.js')
+    script(src='js/script.js')
+  body
+    .poppi-chat
+      .header
+        header
+          img(src='images/logo.png', alt='logo poppi')
+          .notification-header
+            i.icon-icon-notification
+            span Promotion from Poppi company runs here: Lorem ipsum dolor sit amet, modo stet quo ea. Cu essent invidunt apeirian cum, commodo convenire ad per, vix illud delectus an. Eu mel tractatos adolescens
+      .sidebar-left
+        ul.menu-left
+          li
+            a(href='#')
+              i.icon-icon-notification
+              span
+                | Notification
+          li
+            a(href='#')
+              i.icon-circle
+              span
+                | People
+          li
+            a(href='#')
+              i.icon-interface
+              span
+                | Conversations
+          li
+            a(href='#')
+              i.icon-icon-setting
+              span
+                | App setting
+        a.show-hide-nav(href='#')
+          i.icon-arrows
+      .content-page
+        #tabs-settings.settings-page
+          .left-menu
+            h3.title-general
+              | App Settings
+            ul.list-menu-general
+              li
+                a(href="#general-settings") General
+              li
+                a(href="#teammates-settings") Teammates
+              li
+                a(href="#messaging-settings") Messaging
+              li
+                a(href="#appearance-settings") Appearance
+              li
+                a(href="#people-settings") Blocked people
+              li
+                a(href="#upgrade-settings") Upgrade
+              li
+                a(href="#billing-settings") Billing
+
+          .right-content
+            h3.title-general
+              | App Settings
+            .content-settings
+              #general-settings
+                h4.title-block app Information
+                .group-form-custom
+                  label Name of your app
+                  input(type='text' placeholder='balotuixach....')
+                .group-form-custom
+                  label Web domain
+                  input(type='text' placeholder='https://balotuixach.com')
+                h4.title-block.option-2 EXTREME MEASURES
+                .deleteApp
+                  a(href='#' class="btn-default-custom warming") Delete this app
+                .lines-settings
+                .action-settings-page
+                  a(href='#' class="btn-default-custom") Save
+                  a(href='#' class="btn-default-custom cancel") Cancel
+              #teammates-settings
+                .group-form-custom
+                  h4.title-block Teams
+                  input(type='text' placeholder='Type your team name')
+                  .action-items
+                    a(href='#' class="btn-default-custom") Create
+                .table-responsive
+                  h4.title-block.option-2 pending invites
+                  table
+                    tbody
+                      tr
+                        th Name
+                        th Members
+                        th
+                      tr
+                        td Business team
+                        td
+                          span Ha Truong
+                          span Ha Truong
+                        td.action-table
+                          i.icon-delete
+                      tr
+                        td Business team
+                        td
+                          span Ha Truong
+                          span Ha Truong
+                        td.action-table
+                          i.icon-delete
+                      tr
+                        td Business team
+                        td
+                          span Ha Truong
+                          span Ha Truong
+                        td.action-table
+                          i.icon-delete
+                .group-form-custom
+                  h4.title-block Add member
+                  input(type='text' placeholder='Enter your new teammate’s email address')
+                  .action-items
+                    a(href='#' class="btn-default-custom") Create
+                .table-responsive
+                  h4.title-block.option-2 pending invites
+                  table
+                    tbody
+                      tr
+                        th Email
+                        th Invitation Date
+                        th
+                        th
+                      tr
+                        td luuminhtan123@gmail.com
+                        td
+                          span 12:30 12/03/2016
+                        td.resend-email
+                          a(href='#') Resend
+                        td.action-table
+                          i.icon-delete
+                      tr
+                        td luuminhtan123@gmail.com
+                        td
+                          span 12:30 12/03/2016
+                        td.resend-email
+                          a(href='#') Resend
+                        td.action-table
+                          i.icon-delete
+                      tr
+                        td luuminhtan123@gmail.com
+                        td
+                          span 12:30 12/03/2016
+                        td.resend-email
+                          a(href='#') Resend
+                        td.action-table
+                          i.icon-delete
+                .table-responsive
+                  h4.title-block.option-2 Members
+                  table
+                    tbody
+                      tr
+                        th Name
+                        th Email
+                        th Team
+                        th
+                      tr
+                        td luuminhtan
+                        td luuminhtan123@gmail.com
+                        td
+                          span Business Team
+                          span Dev Team
+                        td.action-table
+                          i.icon-delete
+                      tr
+                        td luuminhtan
+                        td luuminhtan123@gmail.com
+                        td
+                          span Business Team
+                          span Dev Team
+                        td.action-table
+                          i.icon-delete
+                      tr
+                        td luuminhtan
+                        td luuminhtan123@gmail.com
+                        td
+                          span Business Team
+                          span Dev Team
+                        td.action-table
+                          i.icon-delete
+              #messaging-settings
+                span nguyen van a
+              #appearance-settings
+                span nguyen van b
+              #people-settings
+                span nguyen van a
+              #upgrade-settings
+                span nguyen van b
+              #billing-settings
+                span nguyen van b

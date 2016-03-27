@@ -1,16 +1,14 @@
-@import 'content-left.import'
-@import 'content-main.import'
-@import 'content-chat.import'
 .content-page
-  width 100%
+  width calc(100% - 90px)
   height 100%
   position fixed
   left 85px
   top 60px
+  overflow overlay;
   .content-main
     display inline-block
     overflow-y scroll
     float left
     background #ebebeb
     height calc(100% - 200px)
-    width calc(100% - 565px)
+    width calc(100% - 480px)

@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	$("#infoUser-tabs").tabs();
+	$("#tabs-settings").tabs();
 	$( ".show-hide-nav" ).click(function(event) {
 		event.preventDefault();
 		$(this).toggleClass( "navActive" );
