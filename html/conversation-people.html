@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,500,700&amp;subset=latin,vietnamese,latin-ext,greek">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!--if lt IE 9
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js')
+    script(src='js/respond.min.js')
+    -->
+    <link href="stylus/fonts.css" type="text/css" rel="stylesheet">
+    <!-- stylesheet-->
+    <link href="stylus/style.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="poppi-chat">
+      <div class="header">
+        <header><img src="images/logo.png" alt="logo poppi"></header>
+      </div>
+      <div class="sidebar-left">
+        <ul class="menu-left">
+          <li><a href="#"><i class="icon-icon-notification"></i><span>Notification</span></a></li>
+          <li><a href="#"><i class="icon-circle"></i><span>People</span></a></li>
+          <li><a href="#"><i class="icon-interface"></i><span>Conversations</span></a></li>
+          <li><a href="#"><i class="icon-icon-setting"></i><span>App setting</span></a></li>
+        </ul><a href="#" class="show-hide-nav"><i class="icon-arrows"></i></a>
+      </div>
+      <div class="content-page">
+        <div id="conversation-people">
+          <div class="left-filtter-conversation">
+            <h3 class="title-conversation">Filter by</h3>
+            <div id="list-filter-conversation">
+              <ul>
+                <li><a href="#" id="filter-name" class="fitler-by">Name</a></li>
+                <li><a href="#" id="filter-email" class="fitler-by has-form">Email</a>
+                  <div id="filter-group-email">
+                    <input type="text" placeholder="@gmail">
+                  </div>
+                </li>
+                <li><a href="#" id="filter-location" class="fitler-by">Location</a></li>
+                <li><a href="#" id="filter-first-seen" class="fitler-by">First Seen</a></li>
+                <li><a href="#" id="filter-last-seen" class="fitler-by has-form">Last Seen</a>
+                  <div id="filter-group-last-seen">
+                    <label> From</label>
+                    <input type="text" placeholder="12/03/2016">
+                    <label> To</label>
+                    <input type="text" placeholder="12/03/2016">
+                  </div>
+                </li>
+                <li><a href="#" id="filter-browser" class="fitler-by">Browser</a></li>
+                <li><a href="#" id="filter-browser-language" class="fitler-by">Browser Language</a></li>
+                <li><a href="#" id="filter-web-sessions" class="fitler-by has-form">Web Sessions</a>
+                  <div id="filter-group-web-sessions">
+                    <label> From</label>
+                    <input type="text" placeholder="12/03/2016">
+                    <label> To</label>
+                    <input type="text" placeholder="12/03/2016">
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-filtter-conversation">
+            <table class="table-conversation">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Location</th>
+                  <th>First seen</th>
+                  <th>Last seen</th>
+                  <th>Browser</th>
+                  <th>Browser language</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="name">Luu Minh Tan</td>
+                  <td class="email"><span>luuminhtan123@gmail.com</span></td>
+                  <td class="location"><span>Ho Chi Minh city</span></td>
+                  <td class="first-seen"><span>12/03/2016</span></td>
+                  <td class="last-seen"><span>12/03/2016</span></td>
+                  <td class="browser"><span>Chrome</span></td>
+                  <td class="browser-language"><span>Vietnamese</span></td>
+                </tr>
+                <tr>
+                  <td class="name"><span>Luu Minh Tan</span></td>
+                  <td class="email"><span>luuminhtan123@gmail.com</span></td>
+                  <td class="location"><span>Ho Chi Minh city</span></td>
+                  <td class="first-seen"><span>12/03/2016</span></td>
+                  <td class="last-seen"><span>12/03/2016</span></td>
+                  <td class="browser"><span>Chrome</span></td>
+                  <td class="browser-language"><span>Vietnamese</span></td>
+                </tr>
+                <tr>
+                  <td class="name"><span>Luu Minh Tan</span></td>
+                  <td class="email"><span>luuminhtan123@gmail.com</span></td>
+                  <td class="location"><span>Ho Chi Minh city</span></td>
+                  <td class="first-seen"><span>12/03/2016</span></td>
+                  <td class="last-seen"><span>12/03/2016</span></td>
+                  <td class="browser"><span>Chrome</span></td>
+                  <td class="browser-language"><span>Vietnamese</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

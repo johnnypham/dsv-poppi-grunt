@@ -1,0 +1,47 @@
+.right-filtter-conversation
+  display inline-block
+  width calc(100% - 270px)
+  float right
+  padding 20px
+  background-color #ebebeb
+  height calc(100% - 60px)
+  .table-conversation
+    width 100%
+    thead
+      tr
+        th
+          height 45px
+          vertical-align middle
+          text-align left
+          font-weight 600
+          text-indent 15px
+    tbody
+      tr
+        background-color #fff
+        border-radius 4px
+        border-bottom 8px solid #ebebeb
+        td
+          text-indent 15px
+          height 45px
+          vertical-align middle
+          text-align left
+          span
+            color #4d4d4d
+            width 100%
+            white-space nowrap
+            overflow hidden
+            text-overflow ellipsis
+          &.name
+            width 17%
+          &.location
+            width 17%
+          &.email
+            width 14%
+          &.first-seen
+            width 10%
+          &.last-seen
+            width 10%
+          &.browser
+            width 10%
+          &.browser-language
+            width 18%

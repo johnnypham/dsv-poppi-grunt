@@ -1,0 +1,74 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    block Poppi chat
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700&subset=latin,vietnamese,latin-ext,greek')
+    //- meta(name='apple-mobile-web-app-capable', content='yes')
+    //- meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    //if lt IE 9
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js')
+      script(src='js/respond.min.js')
+    link(href='stylus/fonts.css', type='text/css', rel='stylesheet')
+    // stylesheet
+    link(href='stylus/style.css', type='text/css', rel='stylesheet')
+    script(src='js/jquery-1.10.2.js')
+    script(src='js/jquery-ui.js')
+    script(src='js/script.js')
+  body
+    .poppi-chat
+      .header
+        header
+          img(src='images/logo.png', alt='logo poppi')
+          ul
+            li.me
+              a(href='#')
+                i.icon-circle
+                span Me
+                number (2)
+            li
+              a(href='#')
+                span Unassigned
+                number (3)
+            li
+              a(href='#')
+                i
+                span Members
+                number (3)
+            li
+              a(href='#')
+                i
+                span Team
+                number (3)
+            li.right.me
+              .groupSearch
+                input.inp-custom(type='search', placeholder='SEARCH')
+                i.icon-search
+      .sidebar-left
+        ul.menu-left
+          li
+            a(href='#')
+              i.icon-icon-notification
+              span
+                | Notification
+          li
+            a(href='#')
+              i.icon-circle
+              span
+                | People
+          li
+            a(href='#')
+              i.icon-interface
+              span
+                | Conversations
+          li
+            a(href='#')
+              i.icon-icon-setting
+              span
+                | App setting
+        a.show-hide-nav(href='#')
+          i.icon-arrows
+      .content-page
+          

@@ -1,0 +1,56 @@
+.chat-all-content
+  .list-chat-content
+    display inline-block
+    width 100%
+  header
+    border-bottom 1px solid #b7b7b7
+    padding 10px 0px
+    text-align center
+    min-height 40px
+    display inline-block
+    width 100%
+    position relative
+    .btn-default-chat
+      color #afb3b6
+      padding 8px 30px
+      display block
+      margin 5px auto
+      width 85px
+    .user-chat
+      color #1074ae
+      margin-top 10px
+      position relative
+      margin-left 15px
+      font-weight 600
+      display inline-block
+      &::after
+        content ''
+        top 5px
+        width 5px
+        height 5px
+        position absolute
+        left -15px
+        border-radius 100%
+        background-color #1074ae
+    #close-chat-list
+      color #c0c0c0
+      position absolute
+      right 25px
+      top calc(50% - 9px)
+    #back-chat-list
+      color #c0c0c0
+      position absolute
+      left 25px
+      font-size 30px
+      top calc(50% - 15px)
+.unread
+  background-color #f4f4f4
+.media.default-list
+  cursor pointer
+  .media-heading
+    font-weight 600
+    color #6f6f6f
+  time
+    color #737373
+  p
+    color #737373
