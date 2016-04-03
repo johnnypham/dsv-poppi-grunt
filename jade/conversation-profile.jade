@@ -1,0 +1,93 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    block Poppi chat
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700&subset=latin,vietnamese,latin-ext,greek')
+    //- meta(name='apple-mobile-web-app-capable', content='yes')
+    //- meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    //if lt IE 9
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js')
+      script(src='js/respond.min.js')
+    link(href='stylus/fonts.css', type='text/css', rel='stylesheet')
+    // stylesheet
+    link(href='stylus/style.css', type='text/css', rel='stylesheet')
+    script(src='js/jquery-1.10.2.js')
+    script(src='js/jquery-ui.js')
+    script(src='js/script.js')
+  body
+    .poppi-chat
+      .header
+        .media.default-list
+          .media-left
+            a(href='#')
+              img.media-object(src="images/user.jpg")
+          .media-body
+            h4.media-heading luuminhtan
+            span luuminhtan123@gmail.com
+
+      .sidebar-left
+        ul.menu-left
+          li
+            a(href='#')
+              i.icon-icon-notification
+              span
+                | Notification
+          li
+            a(href='#')
+              i.icon-circle
+              span
+                | People
+          li
+            a(href='#')
+              i.icon-interface
+              span
+                | Conversations
+          li
+            a(href='#')
+              i.icon-icon-setting
+              span
+                | App setting
+        a.show-hide-nav(href='#')
+          i.icon-arrows
+      .content-page
+        #tabs-conversation-profile
+          ul
+            li
+              a(href='#tabs-conversations') Conversations
+            li
+              a(href='#tabs-profile') Profile
+            li
+              a(href='#tabs-password') Password
+          #tabs-conversations
+            .tabs-conversations-content
+              .media.default-list
+                .media-left
+                  a(href='#')
+                    img.media-object(src="images/user.jpg")
+                .media-body
+                  h4.media-heading Hieupham84vn@gmail.com
+                  time 2 days
+                  p
+                    | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    | industry's
+              .media.default-list
+                .media-left
+                  a(href='#')
+                    img.media-object(src="images/user.jpg")
+                .media-body
+                  h4.media-heading Hieupham84vn@gmail.com
+                  time 2 days
+                  p
+                    | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    | industry's
+          #tabs-profile
+            p
+              | Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.
+          #tabs-password
+            p
+              | Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.
+            p
+              | Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.

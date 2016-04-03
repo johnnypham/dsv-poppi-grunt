@@ -1,6 +1,7 @@
 $(document).ready(function () {
 	$("#infoUser-tabs").tabs();
 	$("#tabs-settings").tabs();
+	$("#tabs-conversation-profile").tabs();
 	$( ".show-hide-nav" ).click(function(event) {
 		event.preventDefault();
 		$(this).toggleClass( "navActive" );
