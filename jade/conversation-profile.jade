@@ -51,7 +51,7 @@ html(lang='en')
                 | App setting
         a.show-hide-nav(href='#')
           i.icon-arrows
-      .content-page
+      .content-page.full-header
         #tabs-conversation-profile
           ul
             li
@@ -60,6 +60,8 @@ html(lang='en')
               a(href='#tabs-profile') Profile
             li
               a(href='#tabs-password') Password
+            li
+              a(href='#tabs-profile-user') Profile User
           #tabs-conversations
             .tabs-conversations-content
               .media.default-list
@@ -112,14 +114,47 @@ html(lang='en')
                 a(href="#",class="btn-profile delete")
                   span Delete person
                   i Delete this person and their conversation history
-                a(href="#",class="btn-profile delete")
+                a(href="#",class="btn-profile")
                   span Block person
                   i Block this person and future messages from them
-                a(href="#",class="btn-profile delete")
+                a(href="#",class="btn-profile")
                   span Unsubscribe from email
                   i Stop sending this person email
           #tabs-password
-            p
-              | Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.
-            p
-              | Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.
+            .content-tabs-password
+              .hr
+                span Change your password
+              #changePassword
+                .group-form-custom
+                  label Current password
+                  input(type='password' class='txt-custom')
+                .group-form-custom
+                  label New password
+                  input(type='password' class='txt-custom')
+                .group-form-custom
+                  label Confirm new password
+                  input(type='password' class='txt-custom')
+              .actionUpdatePass
+                a(href="#", class='btnp btnp-default') Update
+                a(href="#", class='btnp btnp-cancel') Cancel
+
+          #tabs-profile-user
+            .content-tabs-profile
+
+              #update-avatar.avatar-form
+                img(src="images/user.jpg")
+                .form-avatar
+                  label Your profile picture
+                  a(href="#", class='btnp btnp-none btnp-lg') Update
+              .hr
+                span Profile
+              #profile-Form
+                .group-form-custom
+                  label Name
+                  input(type='text' class='txt-custom',placeholder='LuuminhTan')
+                .group-form-custom
+                  label Email
+                  input(type='text' class='txt-custom',placeholder='luuminhtan@gmail.com')
+              .actionUpdateProfile
+                a(href="#", class='btnp btnp-default') Update
+                a(href="#", class='btnp btnp-cancel') Cancel

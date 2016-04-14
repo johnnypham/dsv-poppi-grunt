@@ -33,12 +33,13 @@
           <li><a href="#"><i class="icon-icon-setting"></i><span>App setting</span></a></li>
         </ul><a href="#" class="show-hide-nav"><i class="icon-arrows"></i></a>
       </div>
-      <div class="content-page">
+      <div class="content-page full-header">
         <div id="tabs-conversation-profile">
           <ul>
             <li><a href="#tabs-conversations">Conversations</a></li>
             <li><a href="#tabs-profile">Profile</a></li>
             <li><a href="#tabs-password">Password</a></li>
+            <li><a href="#tabs-profile-user">Profile User</a></li>
           </ul>
           <div id="tabs-conversations">
             <div class="tabs-conversations-content">
@@ -83,12 +84,49 @@
                 <label>Web sessions:</label><span>23</span>
               </div>
               <div class="hr"><span>Action</span></div>
-              <div class="action-profile-tabs-user"><a href="#" class="btn-profile delete"><span>Delete person</span><i>Delete this person and their conversation history</i></a><a href="#" class="btn-profile delete"><span>Block person</span><i>Block this person and future messages from them</i></a><a href="#" class="btn-profile delete"><span>Unsubscribe from email</span><i>Stop sending this person email</i></a></div>
+              <div class="action-profile-tabs-user"><a href="#" class="btn-profile delete"><span>Delete person</span><i>Delete this person and their conversation history</i></a><a href="#" class="btn-profile"><span>Block person</span><i>Block this person and future messages from them</i></a><a href="#" class="btn-profile"><span>Unsubscribe from email</span><i>Stop sending this person email</i></a></div>
             </div>
           </div>
           <div id="tabs-password">
-            <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-            <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            <div class="content-tabs-password">
+              <div class="hr"><span>Change your password</span></div>
+              <div id="changePassword">
+                <div class="group-form-custom">
+                  <label>Current password</label>
+                  <input type="password" class="txt-custom">
+                </div>
+                <div class="group-form-custom">
+                  <label>New password</label>
+                  <input type="password" class="txt-custom">
+                </div>
+                <div class="group-form-custom">
+                  <label>Confirm new password</label>
+                  <input type="password" class="txt-custom">
+                </div>
+              </div>
+              <div class="actionUpdatePass"><a href="#" class="btnp btnp-default">Update</a><a href="#" class="btnp btnp-cancel">Cancel</a></div>
+            </div>
+          </div>
+          <div id="tabs-profile-user">
+            <div class="content-tabs-profile">
+              <div id="update-avatar" class="avatar-form"><img src="images/user.jpg">
+                <div class="form-avatar">
+                  <label>Your profile picture</label><a href="#" class="btnp btnp-none btnp-lg">Update</a>
+                </div>
+              </div>
+              <div class="hr"><span>Profile</span></div>
+              <div id="profile-Form">
+                <div class="group-form-custom">
+                  <label>Name</label>
+                  <input type="text" placeholder="LuuminhTan" class="txt-custom">
+                </div>
+                <div class="group-form-custom">
+                  <label>Email</label>
+                  <input type="text" placeholder="luuminhtan@gmail.com" class="txt-custom">
+                </div>
+              </div>
+              <div class="actionUpdateProfile"><a href="#" class="btnp btnp-default">Update</a><a href="#" class="btnp btnp-cancel">Cancel</a></div>
+            </div>
           </div>
         </div>
       </div>

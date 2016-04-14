@@ -1,1 +1,1 @@
-.content-page{width:calc(100% - 85px);height:100%;position:fixed;left:85px;top:60px;overflow:overlay;}.content-page .content-main{display:inline-block;overflow-y:scroll;float:left;background:#ebebeb;height:calc(100% - 200px);width:calc(100% - 480px)}
+.content-page{width:calc(100% - 85px);height:calc(100% - 80px);position:fixed;left:85px;top:60px;}.content-page.full-header{top:80px}.content-page .content-main{display:inline-block;overflow-y:scroll;float:left;background:#ebebeb;height:calc(100% - 200px);width:calc(100% - 480px)}
