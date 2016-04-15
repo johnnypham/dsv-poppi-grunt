@@ -23,27 +23,30 @@
 
   &.chat-left
     time
-      padding-right 60px
+      padding-left 60px
       margin-top 8px
       display block
+      float left
       font-size 12px
       text-align right
       color #b5b5b5
     .media-body
-      &:before
+      &:after
         position absolute
         content ""
         border-top 8px solid transparent
         border-bottom 8px solid transparent
         border-right 8px solid #fff
         top 10px
-        left -6px
-      &:after
+        left -8px
+      &:before
         position absolute
         content ""
-        box-shadow 1px 1px 1px #000
+        border-top 8px solid transparent
+        border-bottom 8px solid transparent
+        border-right 8px solid rgba(0,0,0,0.19)
         top 10px
-        left -6px
+        left -9px
   &.chat-right
     float right
     .media-left
@@ -58,14 +61,26 @@
       text-align right
       color #b5b5b5
     .media-body
+      width calc(100% - 70px)
+      float right
       &:before
+        position absolute
+        content ""
+        border-top 8px solid transparent
+        border-bottom 8px solid transparent
+        border-left 8px solid rgba(0,0,0,0.19)
+        top 10px
+        right -9px
+      &:after
         position absolute
         content ""
         border-top 8px solid transparent
         border-bottom 8px solid transparent
         border-left 8px solid #fff
         top 10px
-        right -6px
+        right -8px
+    time
+          float right
 
 .time-conversation
   display inline-block
@@ -177,4 +192,3 @@
   background #1074ae
   cursor pointer
   color #fff
-

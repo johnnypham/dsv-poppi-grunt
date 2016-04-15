@@ -15,7 +15,6 @@
     ul
       width calc(100% - 90px)
       display inline-block
-      list-style-type circle
     li
       display inline-block
       font-size 14px
@@ -30,14 +29,19 @@
           color #dfdfdf
           margin-left 10px
       &.me
+        &:after
+          display none
         a
           color #fff
+          background #084365
+          padding 7px 10px 7px 3px
+          border-radius 4px
           i
             height 30px
             width 30px
             color #4d7388
             background #fff
-            margin-right 20px
+            margin-right 10px
             border-radius 4px
             padding 5px
           number
@@ -73,4 +77,3 @@
     position absolute
     right 10px
     top 24px
-

@@ -1,6 +1,9 @@
 .info-user-chat
   display inline-block
-  width 100%
+  width calc(100% - 565px)
+  position fixed
+  top 60px
+  z-index 9
   background #fff
   padding 10px 0px
   .left-user
@@ -16,6 +19,7 @@
         font-size 14px
         position relative
         color #818181
+        font-weight 600
       i
         position relative
         top 5px
@@ -27,6 +31,7 @@
       top 5px
       font-size 14px
       position relative
+      font-weight 600
       color #1074ae
       i
         font-size 10px
@@ -51,6 +56,11 @@
     width 33.333%
     display inline-block
     float left
+.content-main
+  .content-chat
+    padding-bottom 50px
+    display inline-block
+    width 100%
 
 
 .chat-info-toggle
@@ -69,6 +79,32 @@
     display inline-block
     width 50%
     float left
+    &.fullAssign
+      width 100%
+      li
+        width calc(33.33% - 10px)
+        float left
+        display inline-block
+        a
+          display inline-block
+          width 80%
+          padding 5px
+          &.doneAssign
+            background #ebebeb
+            color #2e2e2e
+          .icon-check
+            float right
+            color #3cb878
+            margin-top 5px
+            margin-right 5px
+          img
+            width 24px
+            height 24px
+            float left
+            margin-right 10px
+          span
+            margin-top 5px
+            display inline-block
     li
       color #6b6b6b
       margin-bottom 15px
@@ -102,6 +138,8 @@
       margin-right 5px
       &.icon-delete
         margin-left 10px
+        position relative
+        left 7px
 
 .btn-default-chat
   background #1074ae
@@ -115,4 +153,3 @@
   margin 25px 0px 0px
   .btn-default-chat
     margin-right 15px
-

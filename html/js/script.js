@@ -11,4 +11,8 @@ $(document).ready(function () {
 		event.preventDefault();
 		$('#toggleUser').toggleClass( "fadeInDown" );
 	});
+	$( "#toggleEmailUser-Show" ).click(function(event) {
+		event.preventDefault();
+		$('#toggleEmailUser').toggleClass( "fadeInDown" );
+	});
 });
