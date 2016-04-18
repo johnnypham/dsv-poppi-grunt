@@ -7,6 +7,7 @@ $(document).ready(function () {
 		$(this).toggleClass( "navActive" );
 		$('.sidebar-left').toggleClass( "navActive" );
 	});
+	$('#accordion-conversation-profile').accordion();
 	$( "#infoUser-Show" ).click(function(event) {
 		event.preventDefault();
 		$('#toggleUser').toggleClass( "fadeInDown" );
@@ -15,4 +16,12 @@ $(document).ready(function () {
 		event.preventDefault();
 		$('#toggleEmailUser').toggleClass( "fadeInDown" );
 	});
+
+
+	$('.toggle-Details-conversation').on('click',function(){
+		$(this). closest('.tabs-conversations-content-user').addClass('show-conversations')
+	});
+	$('.close-conversation').on('click',function(){
+		$(this). closest('.tabs-conversations-content-user').removeClass('show-conversations')
+	})
 });

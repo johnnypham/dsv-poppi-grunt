@@ -1,5 +1,5 @@
 #tabs-conversation-profile
-  .ui-widget-content
+  .ui-tabs-panel
     height calc(100% - 190px)
     overflow overlay
     margin-top 80px
@@ -8,9 +8,39 @@
   width 700px
   display block
   margin 0 auto
+  .fixed-none
+    position static
+    width 100%
+  .info-user-chat.fixed-none
+    border-bottom 1px solid #e3e3e3
+    .center-user
+      span
+        color #777
+        margin 0 5px
   .media
     background-color #fff
     margin-bottom 20px
     border 1px solid #e3e3e3
     border-radius 5px
     box-shadow  1px 1px 1px #e3e3e3
+  .toogleConversations
+    display inline-block
+    width 100%
+    background #fff
+  .no-border
+     border none
+     box-shadow none
+.tabs-conversations-content-user
+  margin-bottom 20px
+  display inline-block
+  width 100%
+  .media
+    margin-bottom 0px
+  .toogleConversations
+    display none
+  &.show-conversations
+    .toggle-Details-conversation
+      display none
+    .toogleConversations
+      display inline-block
+
