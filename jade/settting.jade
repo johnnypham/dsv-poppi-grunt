@@ -23,8 +23,8 @@ html(lang='en')
         header
           img(src='images/logo.png', alt='logo poppi')
           .notification-header
-            i.icon-icon-notification
-            span Promotion from Poppi company runs here: Lorem ipsum dolor sit amet, modo stet quo ea. Cu essent invidunt apeirian cum, commodo convenire ad per, vix illud delectus an. Eu mel tractatos adolescens
+            i.icon-technology
+            span Promotion from Poppi company runs here: Lorem ipsum dolor sit amet, modo stet quo ea. Cu essent invidunt apeirian cum, 
       .sidebar-left
         ul.menu-left
           li
@@ -74,6 +74,9 @@ html(lang='en')
             h3.title-general
               | App Settings
             .content-settings
+            
+            
+            
               #general-settings
                 h4.title-block app Information
                 .group-form-custom
@@ -82,13 +85,17 @@ html(lang='en')
                 .group-form-custom
                   label Web domain
                   input(type='text' placeholder='https://balotuixach.com')
-                h4.title-block.option-2 EXTREME MEASURES
+                h4.title-block.option-3 EXTREME MEASURES
                 .deleteApp
                   a(href='#' class="btn-default-custom warming") Delete this app
                 .lines-settings
                 .action-settings-page
                   a(href='#' class="btn-default-custom") Save
                   a(href='#' class="btn-default-custom cancel") Cancel
+                  
+                  
+                  
+                  
               #teammates-settings
                 .group-form-custom
                   h4.title-block Teams
@@ -96,39 +103,39 @@ html(lang='en')
                   .action-items
                     a(href='#' class="btn-default-custom") Create
                 .table-responsive
-                  h4.title-block.option-2 pending invites
                   table
                     tbody
                       tr
-                        th Name
-                        th Members
-                        th
+                        th.tbwidth-20 Name
+                        th.tbwidth-75 Members
+                        th.tbwidth-5
                       tr
-                        td Business team
-                        td
+                        td.tbwidth-20 Business team
+                        td.tbwidth-75
                           span Ha Truong
-                          span Ha Truong
-                        td.action-table
+                          span.edit Ha Truong
+                        td.tbwidth-5.action-table
                           i.icon-delete
                       tr
-                        td Business team
-                        td
+                        td.tbwidth-20 Business team
+                        td.tbwidth-75
                           span Ha Truong
-                          span Ha Truong
-                        td.action-table
+                          span.edit Ha Truong
+                        td.tbwidth-5.action-table
                           i.icon-delete
                       tr
-                        td Business team
-                        td
+                        td.tbwidth-20 Business team
+                        td.tbwidth-75
                           span Ha Truong
-                          span Ha Truong
-                        td.action-table
+                          span.edit Ha Truong
+                        td.tbwidth-5.action-table
                           i.icon-delete
+                .lines-settings
                 .group-form-custom
                   h4.title-block Add member
                   input(type='text' placeholder='Enter your new teammate’s email address')
                   .action-items
-                    a(href='#' class="btn-default-custom") Create
+                    a(href='#' class="btn-default-custom") Invite
                 .table-responsive
                   h4.title-block.option-2 pending invites
                   table
@@ -162,6 +169,7 @@ html(lang='en')
                           a(href='#') Resend
                         td.action-table
                           i.icon-delete
+                .lines-settings                          
                 .table-responsive
                   h4.title-block.option-2 Members
                   table
@@ -172,7 +180,9 @@ html(lang='en')
                         th Team
                         th
                       tr
-                        td luuminhtan
+                        td.member-info 
+                          img(src="images/user.svg")
+                          span luuminhtan
                         td luuminhtan123@gmail.com
                         td
                           span Business Team
@@ -180,7 +190,9 @@ html(lang='en')
                         td.action-table
                           i.icon-delete
                       tr
-                        td luuminhtan
+                        td.member-info 
+                          img(src="images/user.svg")
+                          span luuminhtan
                         td luuminhtan123@gmail.com
                         td
                           span Business Team
@@ -188,7 +200,9 @@ html(lang='en')
                         td.action-table
                           i.icon-delete
                       tr
-                        td luuminhtan
+                        td.member-info 
+                          img(src="images/user.svg")
+                          span luuminhtan
                         td luuminhtan123@gmail.com
                         td
                           span Business Team
@@ -196,7 +210,27 @@ html(lang='en')
                         td.action-table
                           i.icon-delete
               #messaging-settings
-                span nguyen van a
+                .group-form-custom
+                  h4.title-block BEGIN NEW MESSAGES WITH
+                  input(type='text' placeholder='Hi {{first_name | fallback: "there" }},')
+                .lines-settings.no-top    
+                .group-form-custom
+                  h4.title-block MESSAGE RESPONDER FOR WEB
+                  input(type='checkbox')
+                  span.text-checkbox Automatically show a response when someone asks a question
+                  textarea(placeholder="We'll notify you here and by email when we reply.")
+                  span.desinfo
+                    | Example: "We'll notify you when we reply, which is usually within an hour".
+                    br
+                    | (Your team's average response time in the last 7 days: 0 mins)
+                .lines-settings.no-top    
+                .action-settings-page
+                  a(href='#' class="btn-default-custom") Save
+                  a(href='#' class="btn-default-custom cancel") Cancel
+                
+                
+                
+                
               #appearance-settings
                 span nguyen van b
               #people-settings

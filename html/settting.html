@@ -20,7 +20,7 @@
     <div class="poppi-chat">
       <div class="header">
         <header><img src="images/logo.png" alt="logo poppi">
-          <div class="notification-header"><i class="icon-icon-notification"></i><span>Promotion from Poppi company runs here: Lorem ipsum dolor sit amet, modo stet quo ea. Cu essent invidunt apeirian cum, commodo convenire ad per, vix illud delectus an. Eu mel tractatos adolescens</span></div>
+          <div class="notification-header"><i class="icon-technology"></i><span>Promotion from Poppi company runs here: Lorem ipsum dolor sit amet, modo stet quo ea. Cu essent invidunt apeirian cum, </span></div>
         </header>
       </div>
       <div class="sidebar-left">
@@ -58,7 +58,7 @@
                   <label>Web domain</label>
                   <input type="text" placeholder="https://balotuixach.com">
                 </div>
-                <h4 class="title-block option-2">EXTREME MEASURES</h4>
+                <h4 class="title-block option-3">EXTREME MEASURES</h4>
                 <div class="deleteApp"><a href="#" class="btn-default-custom warming">Delete this app</a></div>
                 <div class="lines-settings"></div>
                 <div class="action-settings-page"><a href="#" class="btn-default-custom">Save</a><a href="#" class="btn-default-custom cancel">Cancel</a></div>
@@ -70,36 +70,36 @@
                   <div class="action-items"><a href="#" class="btn-default-custom">Create</a></div>
                 </div>
                 <div class="table-responsive">
-                  <h4 class="title-block option-2">pending invites</h4>
                   <table>
                     <tbody>
                       <tr>
-                        <th>Name</th>
-                        <th>Members</th>
-                        <th></th>
+                        <th class="tbwidth-20">Name</th>
+                        <th class="tbwidth-75">Members</th>
+                        <th class="tbwidth-5"></th>
                       </tr>
                       <tr>
-                        <td>Business team</td>
-                        <td><span>Ha Truong</span><span>Ha Truong</span></td>
-                        <td class="action-table"><i class="icon-delete"></i></td>
+                        <td class="tbwidth-20">Business team</td>
+                        <td class="tbwidth-75"><span>Ha Truong</span><span class="edit">Ha Truong</span></td>
+                        <td class="tbwidth-5 action-table"><i class="icon-delete"></i></td>
                       </tr>
                       <tr>
-                        <td>Business team</td>
-                        <td><span>Ha Truong</span><span>Ha Truong</span></td>
-                        <td class="action-table"><i class="icon-delete"></i></td>
+                        <td class="tbwidth-20">Business team</td>
+                        <td class="tbwidth-75"><span>Ha Truong</span><span class="edit">Ha Truong</span></td>
+                        <td class="tbwidth-5 action-table"><i class="icon-delete"></i></td>
                       </tr>
                       <tr>
-                        <td>Business team</td>
-                        <td><span>Ha Truong</span><span>Ha Truong</span></td>
-                        <td class="action-table"><i class="icon-delete"></i></td>
+                        <td class="tbwidth-20">Business team</td>
+                        <td class="tbwidth-75"><span>Ha Truong</span><span class="edit">Ha Truong</span></td>
+                        <td class="tbwidth-5 action-table"><i class="icon-delete"></i></td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
+                <div class="lines-settings"></div>
                 <div class="group-form-custom">
                   <h4 class="title-block">Add member</h4>
                   <input type="text" placeholder="Enter your new teammate’s email address">
-                  <div class="action-items"><a href="#" class="btn-default-custom">Create</a></div>
+                  <div class="action-items"><a href="#" class="btn-default-custom">Invite</a></div>
                 </div>
                 <div class="table-responsive">
                   <h4 class="title-block option-2">pending invites</h4>
@@ -132,6 +132,7 @@
                     </tbody>
                   </table>
                 </div>
+                <div class="lines-settings">                         </div>
                 <div class="table-responsive">
                   <h4 class="title-block option-2">Members</h4>
                   <table>
@@ -143,19 +144,19 @@
                         <th></th>
                       </tr>
                       <tr>
-                        <td>luuminhtan</td>
+                        <td class="member-info"> <img src="images/user.svg"><span>luuminhtan</span></td>
                         <td>luuminhtan123@gmail.com</td>
                         <td><span>Business Team</span><span>Dev Team</span></td>
                         <td class="action-table"><i class="icon-delete"></i></td>
                       </tr>
                       <tr>
-                        <td>luuminhtan</td>
+                        <td class="member-info"> <img src="images/user.svg"><span>luuminhtan</span></td>
                         <td>luuminhtan123@gmail.com</td>
                         <td><span>Business Team</span><span>Dev Team</span></td>
                         <td class="action-table"><i class="icon-delete"></i></td>
                       </tr>
                       <tr>
-                        <td>luuminhtan</td>
+                        <td class="member-info"> <img src="images/user.svg"><span>luuminhtan</span></td>
                         <td>luuminhtan123@gmail.com</td>
                         <td><span>Business Team</span><span>Dev Team</span></td>
                         <td class="action-table"><i class="icon-delete"></i></td>
@@ -164,7 +165,20 @@
                   </table>
                 </div>
               </div>
-              <div id="messaging-settings"><span>nguyen van a</span></div>
+              <div id="messaging-settings">
+                <div class="group-form-custom">
+                  <h4 class="title-block">BEGIN NEW MESSAGES WITH</h4>
+                  <input type="text" placeholder="Hi {{first_name | fallback: &quot;there&quot; }},">
+                </div>
+                <div class="lines-settings no-top">   </div>
+                <div class="group-form-custom">
+                  <h4 class="title-block">MESSAGE RESPONDER FOR WEB</h4>
+                  <input type="checkbox"><span class="text-checkbox">Automatically show a response when someone asks a question</span>
+                  <textarea placeholder="We'll notify you here and by email when we reply."></textarea><span class="desinfo">Example: "We'll notify you when we reply, which is usually within an hour".<br>(Your team's average response time in the last 7 days: 0 mins)</span>
+                </div>
+                <div class="lines-settings no-top">   </div>
+                <div class="action-settings-page"><a href="#" class="btn-default-custom">Save</a><a href="#" class="btn-default-custom cancel">Cancel</a></div>
+              </div>
               <div id="appearance-settings"><span>nguyen van b</span></div>
               <div id="people-settings"><span>nguyen van a</span></div>
               <div id="upgrade-settings"><span>nguyen van b</span></div>

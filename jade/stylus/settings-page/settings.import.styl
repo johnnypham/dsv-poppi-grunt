@@ -2,12 +2,15 @@
 @import 'left-menu-settings.import'
 @import 'general-settings.import'
 @import 'template-settings.import'
+@import 'template-messaging.import.styl'
 
 
 $bg-settings = #ebebeb
 .settings-page
-  min-height 100%
+  min-height calc(100% - 100px)
   padding 25px
+  overflow scroll
+  height calc(100% - 100px)
   display inline-block
   width calc(100% - 50px)
   background-color $bg-settings
