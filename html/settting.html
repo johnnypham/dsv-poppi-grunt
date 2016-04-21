@@ -12,8 +12,10 @@
     <link href="stylus/fonts.css" type="text/css" rel="stylesheet">
     <!-- stylesheet-->
     <link href="stylus/style.css" type="text/css" rel="stylesheet">
+    <link href="stylus/bootstrap-colorpicker.css" type="text/css" rel="stylesheet">
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap-colorpicker.js"></script>
     <script src="js/script.js"></script>
   </head>
   <body>
@@ -179,7 +181,14 @@
                 <div class="lines-settings no-top">   </div>
                 <div class="action-settings-page"><a href="#" class="btn-default-custom">Save</a><a href="#" class="btn-default-custom cancel">Cancel</a></div>
               </div>
-              <div id="appearance-settings"><span>nguyen van b</span></div>
+              <div id="appearance-settings">
+                <h4 class="title-block option-2">Theme Color</h4>
+                <div id="cp7" class="inl-bl"></div>
+                <div class="lines-settings no-top"></div>
+                <h4 class="title-block option-2">Poppi MESSENGER PREVIEW</h4>
+                <div class="lines-settings no-top">   </div>
+                <div class="action-settings-page"><a href="#" class="btn-default-custom">Save</a><a href="#" class="btn-default-custom cancel">Cancel</a></div>
+              </div>
               <div id="people-settings">
                 <div class="table-responsive">
                   <h4 class="title-block option-2">Blocked people</h4>
@@ -299,6 +308,55 @@
               </div>
               <div id="billing-settings">
                 <h4 class="title-block option-2">Compare products</h4>
+                <div class="progress">
+                  <div class="progress-custom-bg">
+                    <div class="progress-custom-percent"></div>
+                  </div><span>
+                     
+                    Your subscription starts on<strong>Mar 23, 2016 </strong>and will end on <strong>Apr 23, 2016.</strong></span>
+                </div>
+                <div class="lines-settings no-top"> </div>
+                <h4 class="title-block option-2">Billing details</h4>
+                <div class="group-form-custom">
+                  <label>Company name</label>
+                  <input type="text" placeholder="Poppi">
+                </div>
+                <div class="group-form-custom">
+                  <label>Billing email</label>
+                  <input type="text" placeholder="Billing email">
+                </div>
+                <div class="action-settings-page"><a href="#" class="btn-default-custom">Save</a><a href="#" class="btn-default-custom cancel">Cancel</a></div>
+                <div class="lines-settings no-top"> </div>
+                <h4 class="title-block option-2">Invoices</h4>
+                <div class="table-div">
+                  <div class="header-table"><span>ID</span><span>Date</span><span>Amount</span><span>Status</span></div>
+                  <div class="content-table"><span class="bg-gay">241078</span><span class="bg-gay">Mar 23, 2016</span><span class="bg-gay">100.000 VND</span><span class="bg-gay">PAID  </span>
+                    <div class="toggle-invoices">
+                      <div class="header-invoices"><span>Invoice ID</span><span>Invoice Date</span><span>App Name</span><span>App ID </span></div>
+                      <div class="content-invoices"><span>241078</span><span>Mar 23, 2016</span><span>Poppi</span><span>brq8de2r</span>
+                        <p class="confirm"> <strong>Mar 23, 2016 - Apr 23, 2016 </strong>New charges for upcoming month    </p>
+                      </div>
+                      <div class="invoices-list">
+                        <div class="header-invoices-list"><span class="width375">SUBSCRIPTION</span><span class="width375">Time period</span><span>Amount</span></div>
+                        <div class="content-invoices-list"><span class="width375">Small</span><span class="width375">Mar 23, 2016 – Apr 23, 2016</span><span>100.000 VND</span></div>
+                      </div>
+                      <div class="status-invoices"> <span class="status paid"> <i>Paid</i></span><span class="title-total">Total</span><span class="total-price">100.000 VND</span></div>
+                    </div>
+                  </div>
+                  <div class="content-table"><span class="bg-gay">241078</span><span class="bg-gay">Mar 23, 2016</span><span class="bg-gay">100.000 VND</span><span class="bg-gay">PAID  </span>
+                    <div class="toggle-invoices">
+                      <div class="header-invoices"><span>Invoice ID</span><span>Invoice Date</span><span>App Name</span><span>App ID </span></div>
+                      <div class="content-invoices"><span>241078</span><span>Mar 23, 2016</span><span>Poppi</span><span>brq8de2r</span>
+                        <p class="confirm"> <strong>Mar 23, 2016 - Apr 23, 2016 </strong>New charges for upcoming month    </p>
+                      </div>
+                      <div class="invoices-list">
+                        <div class="header-invoices-list"><span class="width375">SUBSCRIPTION</span><span class="width375">Time period</span><span>Amount</span></div>
+                        <div class="content-invoices-list"><span class="width375">Small</span><span class="width375">Mar 23, 2016 – Apr 23, 2016</span><span>100.000 VND</span></div>
+                      </div>
+                      <div class="status-invoices"> <span class="status paid"> <i>Paid</i></span><span class="title-total">Total</span><span class="total-price">100.000 VND</span></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

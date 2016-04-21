@@ -14,8 +14,10 @@ html(lang='en')
     link(href='stylus/fonts.css', type='text/css', rel='stylesheet')
     // stylesheet
     link(href='stylus/style.css', type='text/css', rel='stylesheet')
+    link(href='stylus/bootstrap-colorpicker.css', type='text/css', rel='stylesheet')
     script(src='js/jquery-1.10.2.js')
     script(src='js/jquery-ui.js')
+    script(src='js/bootstrap-colorpicker.js')
     script(src='js/script.js')
   body
     .poppi-chat
@@ -232,7 +234,18 @@ html(lang='en')
                 
                 
               #appearance-settings
-                span nguyen van b
+                h4.title-block.option-2 Theme Color
+                #cp7.inl-bl
+                .lines-settings.no-top
+                
+                h4.title-block.option-2 Poppi MESSENGER PREVIEW
+                
+                .lines-settings.no-top    
+                
+                .action-settings-page
+                  a(href='#' class="btn-default-custom") Save
+                  a(href='#' class="btn-default-custom cancel") Cancel
+                
               #people-settings
                 .table-responsive
                   h4.title-block.option-2 Blocked people
@@ -336,3 +349,98 @@ html(lang='en')
                         td Lorem ipsum dolor
               #billing-settings
                 h4.title-block.option-2 Compare products
+                .progress
+                  .progress-custom-bg
+                    .progress-custom-percent
+                  span  
+                    | Your subscription starts on
+                    strong Mar 23, 2016 
+                    | and will end on 
+                    strong Apr 23, 2016.
+                .lines-settings.no-top  
+                h4.title-block.option-2 Billing details
+                .group-form-custom
+                  label Company name
+                  input(type='text' placeholder='Poppi')
+                .group-form-custom
+                  label Billing email
+                  input(type='text' placeholder='Billing email')
+                .action-settings-page
+                  a(href='#' class="btn-default-custom") Save
+                  a(href='#' class="btn-default-custom cancel") Cancel
+                .lines-settings.no-top  
+                h4.title-block.option-2 Invoices
+                .table-div
+                  .header-table
+                    span ID
+                    span Date
+                    span Amount
+                    span Status
+                  .content-table
+                    span.bg-gay 241078
+                    span.bg-gay Mar 23, 2016
+                    span.bg-gay 100.000 VND
+                    span.bg-gay PAID  
+                    .toggle-invoices
+                      .header-invoices
+                        span Invoice ID
+                        span Invoice Date
+                        span App Name
+                        span App ID 
+                      .content-invoices
+                        span 241078
+                        span Mar 23, 2016
+                        span Poppi
+                        span brq8de2r
+                        p.confirm 
+                          strong Mar 23, 2016 - Apr 23, 2016 
+                          | New charges for upcoming month    
+                      .invoices-list
+                        .header-invoices-list
+                          span.width375 SUBSCRIPTION
+                          span.width375 Time period
+                          span Amount
+                        .content-invoices-list
+                          span.width375 Small
+                          span.width375 Mar 23, 2016 – Apr 23, 2016
+                          span 100.000 VND
+                      .status-invoices  
+                        span.status.paid 
+                          i Paid
+                        span.title-total Total
+                        span.total-price 100.000 VND
+                  .content-table
+                    span.bg-gay 241078
+                    span.bg-gay Mar 23, 2016
+                    span.bg-gay 100.000 VND
+                    span.bg-gay PAID  
+                    .toggle-invoices
+                      .header-invoices
+                        span Invoice ID
+                        span Invoice Date
+                        span App Name
+                        span App ID 
+                      .content-invoices
+                        span 241078
+                        span Mar 23, 2016
+                        span Poppi
+                        span brq8de2r
+                        p.confirm 
+                          strong Mar 23, 2016 - Apr 23, 2016 
+                          | New charges for upcoming month    
+                      .invoices-list
+                        .header-invoices-list
+                          span.width375 SUBSCRIPTION
+                          span.width375 Time period
+                          span Amount
+                        .content-invoices-list
+                          span.width375 Small
+                          span.width375 Mar 23, 2016 – Apr 23, 2016
+                          span 100.000 VND
+                      .status-invoices  
+                        span.status.paid 
+                          i Paid
+                        span.title-total Total
+                        span.total-price 100.000 VND
+                  
+              
