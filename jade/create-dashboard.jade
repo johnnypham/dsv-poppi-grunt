@@ -71,3 +71,18 @@ html(lang='en')
         a.show-hide-nav(href='#')
           i.icon-arrows
       .content-page
+        #create-app-page
+          h3.title-page Create a new app
+          span.des-page
+            | Create a new Poppi app with your existing Poppi login, but with completely separate data and billing.
+            br
+            | You can switch between all of your apps via your user menu.
+          .content-create-app
+            #create-app-form
+              .group-form-custom
+                input(type='text' class='txt-custom' placeholder='Your new app name')
+              .group-form-custom
+                input(type='text' class='txt-custom' placeholder='Your web domain')
+            .actionCreateApp.general-action
+              a(href="#", class='btnp btnp-default') Create
+              a(href="#", class='btnp btnp-cancel') Cancel

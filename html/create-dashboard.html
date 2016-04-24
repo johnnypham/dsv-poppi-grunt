@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,500,700&amp;subset=latin,vietnamese,latin-ext,greek">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!--if lt IE 9
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js')
+    script(src='js/respond.min.js')
+    -->
+    <link href="stylus/fonts.css" type="text/css" rel="stylesheet">
+    <!-- stylesheet-->
+    <link href="stylus/style.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="poppi-chat">
+      <div class="header">
+        <header><img src="images/logo.png" alt="logo poppi">
+          <ul>
+            <li class="me"><a href="#"><i class="icon-circle"></i><span>Me</span>
+                <number>(2)</number></a></li>
+            <li><a href="#"><span>Unassigned</span>
+                <number>(3)</number></a></li>
+            <li><a href="#"><i></i><span>Members</span>
+                <number>(3)</number></a></li>
+            <li><a href="#"><i></i><span>Team</span>
+                <number>(3)</number></a></li>
+            <li class="right me">
+              <div class="groupSearch">
+                <input type="search" placeholder="SEARCH" class="inp-custom"><i class="icon-search"></i>
+              </div>
+            </li>
+          </ul>
+        </header>
+      </div>
+      <div class="sidebar-left">
+        <ul class="menu-left">
+          <li><a href="#"><i class="icon-icon-notification"></i><span>Notification</span></a></li>
+          <li><a href="#"><i class="icon-circle"></i><span>People</span></a></li>
+          <li><a href="#"><i class="icon-interface"></i><span>Conversations</span></a></li>
+          <li><a href="#"><i class="icon-icon-setting"></i><span>App setting</span></a></li>
+        </ul><a href="#" class="show-hide-nav"><i class="icon-arrows"></i></a>
+      </div>
+      <div class="content-page">
+        <div id="create-app-page">
+          <h3 class="title-page">Create a new app</h3><span class="des-page">Create a new Poppi app with your existing Poppi login, but with completely separate data and billing.<br>You can switch between all of your apps via your user menu.</span>
+          <div class="content-create-app">
+            <div id="create-app-form">
+              <div class="group-form-custom">
+                <input type="text" placeholder="Your new app name" class="txt-custom">
+              </div>
+              <div class="group-form-custom">
+                <input type="text" placeholder="Your web domain" class="txt-custom">
+              </div>
+            </div>
+            <div class="actionCreateApp general-action"><a href="#" class="btnp btnp-default">Create</a><a href="#" class="btnp btnp-cancel">Cancel</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

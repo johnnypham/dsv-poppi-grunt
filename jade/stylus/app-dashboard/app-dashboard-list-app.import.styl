@@ -1,0 +1,85 @@
+#list-app-page
+  display inline-block
+  width 100%
+  height calc(100% - 100px)
+  background-color #ebebeb
+  padding 20px
+  overflow overlay
+.title-app-page
+  font-size 18px
+  margin-bottom 20px
+  color #636363
+  font-weight 600
+  margin-top 20px
+  &.first-title
+    margin-top 0px
+.list-app-block
+  display inline-block
+  width 100%
+  .list-items
+    display inline-block
+    float left
+    margin-right 20px
+    margin-bottom 20px
+    max-width 300px
+    width 100%
+    height 140px
+    background-color #fff
+    border-radius 3px
+    cursor pointer
+    &:hover
+      background-color #1074ae
+      .title-app-block
+        color #fff
+      .url-app
+        a
+          color #fff
+      .choose-app
+        display inline-block
+    &.share
+      &:hover
+        background-color #fff
+        .title-app-block
+          color #333333
+        .url-app
+          a
+            color #333333
+    &.create
+      a
+        display inline-block
+        width 100%
+        height 140px
+        line-height 140px
+        text-align center
+        font-size 14px
+        color #727272
+        font-weight 600
+      &:hover
+        background-color #fff
+    &.choose
+      background-color #1074ae
+      .title-app-block
+        color #fff
+      .url-app
+        a
+          color #fff
+      .choose-app
+        display inline-block
+    .title-app-block
+      padding 20px
+      color #333333
+      font-weight 600
+    .url-app
+      padding 0px 20px 35px 20px
+      a
+        color #333333
+    .choose-app
+      display none
+      width 100%
+      text-align right
+      .icon-check
+        margin-right 15px
+        font-size 24px
+        border-radius 100%
+        color #3cb878
+

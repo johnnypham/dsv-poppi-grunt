@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb577c2a-6cb6-4889-a888-d0024662b852" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/stylus/settings-page/template-block.import.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/stylus/settings-page/template-upgrade.import.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/stylus/settings-page/settings.css" afterPath="$PROJECT_DIR$/html/stylus/settings-page/settings.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/stylus/settings-page/settings.import.styl" afterPath="$PROJECT_DIR$/jade/stylus/settings-page/settings.import.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/settting.html" afterPath="$PROJECT_DIR$/html/settting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/settting.jade" afterPath="$PROJECT_DIR$/jade/settting.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-create-app.import.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-list-app.import.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard.import.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/app-dashboard.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/create-dashboard.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitingnore" afterPath="$PROJECT_DIR$/.gitingnore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/stylus/conversation-profile/conversation-profile-tabs-password.css" afterPath="$PROJECT_DIR$/html/stylus/conversation-profile/conversation-profile-tabs-password.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-password.import.styl" afterPath="$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-password.import.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/stylus/conversation-profile/conversation-profile.css" afterPath="$PROJECT_DIR$/html/stylus/conversation-profile/conversation-profile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/conversation-profile.html" afterPath="$PROJECT_DIR$/html/conversation-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/conversation-profile.jade" afterPath="$PROJECT_DIR$/jade/conversation-profile.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/stylus/style.css" afterPath="$PROJECT_DIR$/html/stylus/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/stylus/style.styl" afterPath="$PROJECT_DIR$/jade/stylus/style.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/template-default.jade" afterPath="$PROJECT_DIR$/jade/template-default.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dsv-poppi-grunt.iws" />
@@ -30,91 +37,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="conversation-profile.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/conversation-profile.jade">
+      <file leaf-file-name="app-dashboard-list-app.import.styl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-list-app.import.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.888889">
-              <caret line="330" column="14" selection-start-line="330" selection-start-column="14" selection-end-line="330" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.84070796">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-block.import.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/template-block.import.styl">
+      <file leaf-file-name="create-dashboard.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/create-dashboard.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.4814816">
+              <caret line="67" column="27" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-settings.import.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/template-settings.import.styl">
+      <file leaf-file-name="app-dashboard.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/app-dashboard.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.777778">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state vertical-scroll-proportion="-16.925926">
+              <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settting.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jade/settting.jade">
+      <file leaf-file-name="app-dashboard-create-app.import.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-create-app.import.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8737374">
-              <caret line="304" column="16" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-upgrade.import.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/template-upgrade.import.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6666666">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.import.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/settings.import.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2222223">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-main.import.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/stylus/chat-dashboard/content-main.import.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conversation-profile-tabs-profile-user.import.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-profile-user.import.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state vertical-scroll-proportion="-2.7777777">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -128,10 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jade/stylus/header-poppi-chat/sidebar-left.import.styl" />
-        <option value="$PROJECT_DIR$/jade/stylus/header-poppi-chat/header.import.styl" />
-        <option value="$PROJECT_DIR$/html/poppi-chat.html" />
-        <option value="$PROJECT_DIR$/jade/stylus/content-poppi-chat/content-left.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/lib/mediaObject.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/content-poppi-chat/content-main.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/content-poppi-chat/content.import.styl" />
@@ -141,7 +94,6 @@
         <option value="$PROJECT_DIR$/jade/stylus/settings-page/general-settings.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/settings-page/lib-settings.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/settings-page/template-settings.import.styl" />
-        <option value="$PROJECT_DIR$/jade/template-default.jade" />
         <option value="$PROJECT_DIR$/jade/stylus/chat-list/chat-list-import.styl" />
         <option value="$PROJECT_DIR$/jade/popup-chat.jade" />
         <option value="$PROJECT_DIR$/jade/stylus/conversation-page/content-chat.import.styl" />
@@ -164,21 +116,26 @@
         <option value="$PROJECT_DIR$/jade/stylus/layout/layout.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/lib/button.styl" />
-        <option value="$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-password.import.styl" />
         <option value="$PROJECT_DIR$/jade/poppi-chat.jade" />
         <option value="$PROJECT_DIR$/jade/stylus/conversation-dashboard/content-main.import.styl" />
-        <option value="$PROJECT_DIR$/jade/stylus/style.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-profile-user.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/chat-dashboard/content-chat.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/chat-dashboard/content-main.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-conversations.import.styl" />
         <option value="$PROJECT_DIR$/html/js/script.js" />
         <option value="$PROJECT_DIR$/html/conversation-profile.html" />
-        <option value="$PROJECT_DIR$/jade/conversation-profile.jade" />
         <option value="$PROJECT_DIR$/jade/stylus/settings-page/template-block.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/settings-page/settings.import.styl" />
         <option value="$PROJECT_DIR$/jade/stylus/settings-page/template-upgrade.import.styl" />
         <option value="$PROJECT_DIR$/jade/settting.jade" />
+        <option value="$PROJECT_DIR$/jade/template-default.jade" />
+        <option value="$PROJECT_DIR$/jade/stylus/style.styl" />
+        <option value="$PROJECT_DIR$/jade/conversation-profile.jade" />
+        <option value="$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-password.import.styl" />
+        <option value="$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard.import.styl" />
+        <option value="$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-create-app.import.styl" />
+        <option value="$PROJECT_DIR$/jade/app-dashboard.jade" />
+        <option value="$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-list-app.import.styl" />
       </list>
     </option>
   </component>
@@ -219,6 +176,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,51 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="settings-page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dsv-poppi-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dsv-poppi-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dsv-poppi-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dsv-poppi-grunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conversation-profile" />
+              <option name="myItemId" value="app-dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,8 +284,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,25 +358,25 @@
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32766616" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25655282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -482,48 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jade/stylus/layout/layout.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/general-settings.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/settings.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/settting.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/stylus/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="11700" selection-start-line="0" selection-start-column="11700" selection-end-line="0" selection-end-column="11700" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/lib-settings.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/template-settings.import.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -587,31 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-people/conversation-general.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-people/conversation-people.import.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1111112">
           <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-people/conversation-left-menu.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5555556">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/template-default.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.666666">
-          <caret line="73" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -739,37 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-password.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1111112">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-profile-user.import.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/chat-dashboard.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3644068">
-          <caret line="420" column="25" selection-start-line="420" selection-start-column="25" selection-end-line="420" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/stylus/style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/chat-dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29131654">
@@ -816,14 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/conversation-profile.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.888889">
-          <caret line="330" column="14" selection-start-line="330" selection-start-column="14" selection-end-line="330" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/template-block.import.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -834,23 +645,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/template-settings.import.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.777778">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/settings.import.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2222223">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/stylus/settings-page/template-upgrade.import.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
@@ -858,8 +669,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/settting.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8737374">
+        <state vertical-scroll-proportion="0.0">
           <caret line="304" column="16" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-profile-user.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.222222">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/chat-dashboard.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.37037">
+          <caret line="420" column="25" selection-start-line="420" selection-start-column="25" selection-end-line="420" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/chat-dashboard/content.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-people/conversation-left-menu.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.259259">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-people/conversation-general.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15789473">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/template-default.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.074074">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/conversation-profile/conversation-profile-tabs-password.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7777777">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/conversation-profile.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="69.296295">
+          <caret line="161" column="35" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5555556">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-create-app.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7777777">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/create-dashboard.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4814816">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/app-dashboard.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.925926">
+          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/stylus/app-dashboard/app-dashboard-list-app.import.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84070796">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding />
         </state>
       </provider>
